@@ -1,0 +1,175 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+
+p{
+    color: grey;
+}
+
+
+
+.colored-part{
+    background-color: #fa7d09;
+    color: white;
+}
+
+
+.white-part{
+    background-color: white;
+}
+
+
+/*Title*/
+#title{
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 3% 10%;
+    padding-bottom: 120px;
+}
+
+.download{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    width: 50%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20%;
+}
+
+
+
+/*Nav Bar*/
+.navbar{
+    padding: 0 0 50px 0;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+
+.nav-item{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 15px;
+}
+
+
+
+/*Features*/
+.features{
+    padding: 5%;
+}
+
+#features{
+    padding: 7% 15%;
+   
+    position: relative;
+    z-index: 1;
+}
+
+.features-heading{
+    font-size: 1.5rem;
+}
+
+.icon{
+    color: #ffa931;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #fa7d09;
+}
+
+
+
+/*Testimonals*/
+.test-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding-bottom: 3%;
+}
+
+.test-img{
+    width: 15%;
+    border-radius: 100%;
+}
+
+#test-carousel{
+    padding: 7% 15%;
+}
+
+
+
+/*Press*/
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+
+
+/*Pricing*/
+#pricing{
+    padding: 7% 15%;
+}
+
+.price-col{
+    padding: 3% 2%;
+}
+
+.price-headings{
+    font-size: 1.5rem;
+}
+
+
+/*Call to Action*/
+#cta{
+    padding: 50px 20px 70px;
+}
+
+.action-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding-bottom: 3%;
+}
+
+@media (max-width: 991px){
+    .title-img{
+        transform: rotate(0);
+        position: static;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+
+
+/*Footer*/
+#footer{
+    padding: 30px;
+}
+
+.ficon{
+    margin: 3% 2%;
+}
